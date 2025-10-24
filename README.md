@@ -1,6 +1,6 @@
 # Entrega Final: Backend E-commerce con MongoDB
 
-[cite_start]Este proyecto desarrolla el backend de una aplicación de e-commerce, cumpliendo con la migración completa a **MongoDB** y la implementación de todas las funcionalidades avanzadas requeridas por la rúbrica.
+Este proyecto desarrolla el backend de una aplicación de e-commerce, cumpliendo con la migración completa a **MongoDB** y la implementación de todas las funcionalidades avanzadas requeridas por la rúbrica.
 
 Se utiliza **Mongoose** para la persistencia de datos, y se implementa paginación, filtros, ordenamiento y la técnica de *populate* para la gestión de productos y carritos.
 

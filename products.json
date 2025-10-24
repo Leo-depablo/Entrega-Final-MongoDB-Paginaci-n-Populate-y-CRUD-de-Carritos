@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Mouse Inalámbrico",
+    "description": "Mouse ergonómico de 2.4GHz",
+    "code": "MOU001",
+    "price": 15.5,
+    "status": true,
+    "stock": 100,
+    "category": "Periféricos",
+    "thumbnails": [],
+    "id": 1
+  },
+  {
+    "title": "Teclado Mecánico",
+    "description": "Teclado retroiluminado con switches azules",
+    "code": "TEC002",
+    "price": 59.99,
+    "status": true,
+    "stock": 50,
+    "category": "Periféricos",
+    "thumbnails": [],
+    "id": 2
+  },
+  {
+    "title": "Monitor 27 Pulgadas 4K",
+    "description": "Monitor UHD con panel IPS para diseño y juegos.",
+    "code": "MON4K01",
+    "price": 450,
+    "status": true,
+    "stock": 30,
+    "category": "Monitores",
+    "thumbnails": [],
+    "id": 3
+  },
+  {
+    "title": "Disco Duro SSD 1TB",
+    "description": "Unidad de estado sólido NVMe de alta velocidad.",
+    "code": "SSD1TBX",
+    "price": 85,
+    "status": true,
+    "stock": 200,
+    "category": "Almacenamiento",
+    "thumbnails": [],
+    "id": 4
+  },
+  {
+    "title": "Webcam HD 1080p",
+    "description": "Cámara web para videoconferencias con micrófono integrado.",
+    "code": "WEBHD05",
+    "price": 35.75,
+    "status": true,
+    "stock": 150,
+    "category": "Periféricos",
+    "thumbnails": [],
+    "id": 5
+  },
+  {
+    "title": "Router WiFi 6",
+    "description": "Router de doble banda con tecnología WiFi 6 para alto rendimiento.",
+    "code": "RTXW601",
+    "price": 129.99,
+    "status": true,
+    "stock": 75,
+    "category": "Redes",
+    "thumbnails": [],
+    "id": 6
+  },
+  {
+    "title": "Memoria RAM 16GB (2x8GB)",
+    "description": "Kit de memoria DDR4 a 3200MHz.",
+    "code": "RAM3200",
+    "price": 75,
+    "status": true,
+    "stock": 90,
+    "category": "Componentes",
+    "thumbnails": [],
+    "id": 7
+  },
+  {
+    "title": "Tarjeta Gráfica RTX 4070",
+    "description": "GPU de alto rendimiento para gaming 4K.",
+    "code": "GPU4070",
+    "price": 799,
+    "status": false,
+    "stock": 0,
+    "category": "Componentes",
+    "thumbnails": [],
+    "id": 8
+  },
+  {
+    "title": "Impresora Multifunción Láser",
+    "description": "Impresora, copiadora y escáner láser monocromático.",
+    "code": "IMPLSRX",
+    "price": 199.5,
+    "status": true,
+    "stock": 40,
+    "category": "Oficina",
+    "thumbnails": [],
+    "id": 9
+  }
+]

@@ -1,0 +1,36 @@
+<h1>Catálogo de Productos</h1>
+
+<div class="product-grid">
+  {{#each products}}
+    <div class="product-card">
+      <h2>{{this.title}}</h2>
+      <p>Categoría: {{this.category}}</p>
+      <p>Precio: ${{this.price}}</p>
+      <p>Stock: {{this.stock}}</p>
+
+      <button
+        class="btn-cart"
+        data-product-id="{{this._id}}"
+        data-cart-id="{{user.cartId}}"
+      >
+        Agregar al Carrito
+      </button>
+    </div>
+  {{/each}}
+</div>
+
+<div class="pagination-controls">
+  {{#if pagination.hasPrevPage}}
+    <a href="{{pagination.prevLink}}" class="btn-page">Página Anterior</a>
+  {{else}}
+    <button disabled>Página Anterior</button>
+  {{/if}}
+
+  <span>Página {{pagination.page}} de {{pagination.totalPages}}</span>
+
+  {{#if pagination.hasNextPage}}
+    <a href="{{pagination.nextLink}}" class="btn-page">Página Siguiente</a>
+  {{else}}
+    <button disabled>Página Siguiente</button>
+  {{/if}}
+</div>

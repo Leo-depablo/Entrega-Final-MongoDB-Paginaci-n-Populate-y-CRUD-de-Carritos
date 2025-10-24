@@ -1,0 +1,20 @@
+<h1>Detalle del Carrito (ID: {{cart._id}})</h1>
+
+<a href="/">← Volver al Catálogo</a>
+
+{{#if cart.products}}
+  <ul>
+    {{#each cart.products}}
+      <li>
+        <h2>{{this.product.title}}</h2>
+        <p>Categoría: {{this.product.category}}</p>
+        <p>Precio Unitario: **${{this.product.price}}**</p>
+        <p>Cantidad en Carrito: **{{this.quantity}}**</p>
+        <p>ID Producto: {{this.product._id}}</p>
+      </li>
+      <hr />
+    {{/each}}
+  </ul>
+{{else}}
+  <p>El carrito está vacío. ¡Agrega algunos productos!</p>
+{{/if}}
